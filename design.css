@@ -1,0 +1,42 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+.mesa {
+  font-size: 10px;
+  width: 120em;
+  height: 60em;
+  background-color: #376A90;
+  margin: auto;
+  margin-top: 25px;
+  padding: 5em;
+  box-sizing: border-box;
+}
+
+.mesa div {
+  width: 10em;
+  height: 10em;
+  background-color: white;
+  border-radius: 0.3em;
+  text-align: center;
+  padding: 1em;
+  box-sizing: border-box;
+  float: left;
+  margin: 1em 1.1em 1em 1.1em;
+  cursor: pointer;
+}
+
+
+.mesa div:active{
+    transform: rotateY(-180deg);
+    transition: .1s;
+    background-color: red;
+}
+
+.ico {
+  font-size: 5em;
+}
+
+.ico:hover{
+  position: static;
+}
